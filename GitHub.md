@@ -12,11 +12,11 @@ For the purpose of working with the IBM Accelerate assignments, choose GitHub Fr
     + If you want to create a new personal account, make sure you are currently signed out of GitHub.
 + Click on Sign up for GitHub.
 + Follow the prompts to create your personal account or organization.
-   > Enter your email.
-    Create a password.
-    Enter a username.
-    Click on Continue.
-    Select your preference for product updates and announcements. For example: "n"
+   > Enter your email ->
+    Create a password ->
+    Enter a username ->
+    Click on Continue ->
+    Select your preference for product updates and announcements. For example: "n" ->
     Click on Continue.
 + Verify your account.
 + Click on Create account.
@@ -65,14 +65,14 @@ Follow the steps described [**here**](https://docs.github.com/en/authentication/
 + Run the following command: npm run dev
 
 ## Pushing your Code
-In you VS Code IDE terminal
-See status of your changed files 
+**In you VS Code IDE terminal**
++ **See status of your changed files**
 `git status` 
-**Add the files to be staged for commit**
++ **Add the files to be staged for commit**
 `git add my_modified_file.js`
-**Commit staged files**
++ **Commit staged files**
 `git commit -m "making my first commit"`
 The git commit command create a new commit with all files that have been added. The -m "making my first commit" is the message alongside the commit used for future reference.
-**Push your changes**
++ **Push your changes**
 `git push -u origin <default branch>`
 The -u flags sets the remote origin as the default. This lets you easily do a `git push` 
