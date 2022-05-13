@@ -1,4 +1,4 @@
-# Project: Weeks 1-7: To-do list application
+# Project: Weeks 1: To-do list application
 ## Introduction
 As a team, you should create and style the front-end of a to-do list web application using React and Material UI components. A typical user wants to be able to use a to-do list to organize tasks. Keeping user stories in mind when designing applications helps determine important features. We encourage you to take a unique approach to this lab as there is no one right answer. 
 - [Material Design](https://material.io/design/introduction) is a design system that can guide you on what UI decisions to make if you would like to explore best practices, but functionality is the key focus of the lab.
@@ -6,18 +6,12 @@ As a team, you should create and style the front-end of a to-do list web applica
 
 
 ## Requirements
-Feature requirements:
+Feature requirements (Week1 task is complete when you):
++ Design your personalize about me page
 + **Take in and display** to do list items
-+ Allow users to **mark items as complete**
-+ Provide the **date and time of item addition**
-+ Validate there are **no duplicated items** (i.e. do not accept duplicate inputs)
-+ Give users the option to **update list items**
-+ Give users the option to **delete list items**
-
 
 Implementation requirements:
 + Use [**Material UI components**](https://material-ui.com/) at least once throughout the app
-+ Use JS's [**list.map**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) function at least once to manipulate list items
 + Implement at least one **functional component**
 
 
@@ -28,3 +22,7 @@ When testing web components, developers often use ids to uniquely define element
 
 
 Note: Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
+
+## Pre-session Material
+Here is a [**link**](https://) to the pre-session material that was provided to you earlier.
+
