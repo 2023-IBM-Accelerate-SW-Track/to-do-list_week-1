@@ -25,3 +25,4 @@ Note: Material UI components (and other libraries) render as HTML components und
 
 ## Pre-session Material
 Here is a [**link**](https://) to the pre-session material that was provided to you earlier.
+Here is a [**link**](https://) to the Get "Started with Github" that was provided to you earlier. 
