@@ -24,5 +24,5 @@ When testing web components, developers often use ids to uniquely define element
 Note: Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
 
 ## Pre-session Material
-Here is a [**link**](https://) to the pre-session material that was provided to you earlier.
-Here is a [**link**](https://) to the Get "Started with Github" that was provided to you earlier. 
+Here is a [**link**](https://ibm.ent.box.com/folder/163593416418) to the pre-session material that was provided to you earlier.
+
