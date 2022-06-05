@@ -51,22 +51,38 @@ Note: The styling for this page `About.css` is provided for you. However, feel f
     import <profile_pic_name> from "../assets/profile_pic_name.jpg";
     ```
 ### TO-DO List APP
-1. Create two components `AddTodo.js` and `todo.js`  in the src/component/ directory
-    + `AddTodo.js` Create a class with an HTML form and textFiled which takes in list of todo items.
-    + 
-    + `todo.js` Create a function that helps to hold and return the todo list
-2. Import both files in your Home.js file.
-3. Create a function that add items to the list and renders the html elements need to display the list on the page.
-   Sample add function 
-   ```
-    addTodo = (todo) => {
-        todo.id = Math.random();
-        let todos = [...this.state.todos, todo];
-        this.setState({
-            todos: todos,
-        });
-    };
-   ```
+1. Create two components `AddTodo.js` and `todo.js` in the src/component/ directory
+    + `AddTodo.js`
+      1. import Button and TesxtField from material UI like so: `import { Button, TextField } from "@mui/material";`
+      2. Both `handleChange` and `handleSubmit` functions are already provided for you. Paste the code below in the `div` tag inside the render() function. 
+      ```
+      <TextField
+        label="Add New Item"
+        variant="outlined"
+        //onChange={call handleChange here}
+        //value={set the content state here}
+      />
+      <Button
+        style={{ marginLeft: "10px" }}
+        //onClick={call handleSubmit here}
+        variant="contained"
+        color="primary"
+      >
+        Add
+      </Button>
+
+      ```
+    + `todo.js` 
+      1. Import material UI components like so: `import {Card,CardContent,Grid,ListItemButton,ListItemText,Checkbox,} from "@mui/material";`
+      2. Inside the `CardContent` MUI tag replace the `add todo content`. Remember to use curly braces {}.
+      3. Enter your personilize message for empty todo list in the `p` tag.
+      4. Inside the `return function` replace the `call todo list here`.
+2. Navigate to `Home.js` file src/pages/Home.js and Import `AddTodo.js`, `todos.js`, and `Home.css` files. `By now you should be falimiar with imports`
+3. In Home.js file:
+  + Inside the constructor(), create a list with the name `todos`
+  + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
+  `<Todos todos={make your change } />`. Hint: return current todo list state. Remember to use the `this` keyword
+  `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
 
 
 ## Testing
