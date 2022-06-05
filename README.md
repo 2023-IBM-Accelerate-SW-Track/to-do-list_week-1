@@ -14,10 +14,10 @@ Implementation requirements:
 + Use [**Material UI components**](https://material-ui.com/) at least once throughout the app
 + Implement at least one **functional component**
 
-## Instructions/Hints:
+## Instructions:
 
 ### About Page
-Note: The styling for this page `About.css` is provided for you. However, feel free to play around with the styling to gain better understanding of how they work.
+Note: The styling for all pages are provided for you. However, feel free to play around with the styling to gain better understanding of how they work.
 1. Natigate to src/pages/About.js. Replace the `p` tag with your content. Your content should include:
     - A picture
     - Details about you like Interests, fun fact so on...
@@ -51,9 +51,9 @@ Note: The styling for this page `About.css` is provided for you. However, feel f
     import <profile_pic_name> from "../assets/profile_pic_name.jpg";
     ```
 ### TO-DO List APP
-1. Create two components `AddTodo.js` and `todo.js` in the src/component/ directory
+1. Navigate to `src/components/AddTodo.js` and `src/components/todos.js`
     + `AddTodo.js`
-      1. import Button and TesxtField from material UI like so: `import { Button, TextField } from "@mui/material";`
+      1. import Button and TextField from material UI like so: `import { Button, TextField } from "@mui/material";`
       2. Both `handleChange` and `handleSubmit` functions are already provided for you. Paste the code below in the `div` tag inside the render() function. 
       ```
       <TextField
@@ -72,23 +72,23 @@ Note: The styling for this page `About.css` is provided for you. However, feel f
       </Button>
 
       ```
-    + `todo.js` 
+    + `todos.js` 
       1. Import material UI components like so: `import {Card,CardContent,Grid,ListItemButton,ListItemText,Checkbox,} from "@mui/material";`
       2. Inside the `CardContent` MUI tag replace the `add todo content`. Remember to use curly braces {}.
       3. Enter your personilize message for empty todo list in the `p` tag.
       4. Inside the `return function` replace the `call todo list here`.
-2. Navigate to `Home.js` file src/pages/Home.js and Import `AddTodo.js`, `todos.js`, and `Home.css` files. `By now you should be falimiar with imports`
+2. Navigate to `src/pages/Home.js`. Import `AddTodo.js`, `todos.js`, and `Home.css` files. By now you should be falimiar with imports
 3. In Home.js file:
   + Inside the constructor(), create a list with the name `todos`
   + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
-  `<Todos todos={make your change } />`. Hint: return current todo list state. Remember to use the `this` keyword
-  `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
+    + `<Todos todos={make your change } />`. Hint: return current todo list state. Remember to use the `this` keyword
+    + `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
 
 
 ## Testing
 When testing web components, developers often use ids to uniquely define elements on a page. The React Testing Library provides a query which can identify items with the attribute data-testid to do just that (reference [here](https://testing-library.com/docs/queries/bytestid/)). We have implemented simple tests in `App.test.js` that will look for ids in your code. Do not push changes to the tests in this file. To get familiar with the idea of testing ids, implement the attributes below:
-+ `data-testid="new-item-input"` on the Input component which takes user input for new items.
-+ `data-testid="new-item-button"` on the Button component which submits new items to the to do list.
+    + `data-testid="new-item-input"` on the Input component which takes user input for new items.
+    + `data-testid="new-item-button"` on the Button component which submits new items to the to do list.
 
 
 Note: Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
