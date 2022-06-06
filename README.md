@@ -18,8 +18,8 @@ Implementation requirements:
 
 ### About Page
 Note: The styling for all pages are provided for you. However, feel free to play around with the styling to gain better understanding of how they work.
-1. Navigate to src/pages/About.js. Replace the `p` tag with your content. Your content should include:
-    - A picture
+1. Navigate to src/pages/About.js. Replace the `p` tag with the content below. Your content should include:
+    - A profile picture
     - Details about you like Interests, fun fact so on... To achieve this, consider using div tags to split the page in half like so
     ```
      <div>
@@ -43,7 +43,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
       </div>
 
     ```
-2. Upload your profile picture into the assets folder. i.e /src/assets/<profile_pic_name.jpg>
+2. Copy your photo into the assets folder. i.e /src/assets/<profile_pic_name.jpg>
 3. Import About.css file and profile picture in your About.js file like so 
     ```
     import "./About.css";
