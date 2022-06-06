@@ -74,7 +74,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
     + `todos.js` 
       1. Import material UI components like so: `import {Card,CardContent,Grid,ListItemButton,ListItemText,Checkbox,} from "@mui/material";`
       2. Inside the `CardContent` MUI tag replace the `add todo content`. Remember to use curly braces {}.
-      3. Enter your personalize message for empty todo list in the `p` tag.
+      3. Enter your "You have no todo's left" in the `p` tag.
       4. Inside the `return function` replace the `call todo list here`.
 2. Navigate to `src/pages/Home.js`. Import `AddTodo.js`, `todos.js`, and `Home.css` files. By now you should be familiar with imports
 3. In Home.js file:
