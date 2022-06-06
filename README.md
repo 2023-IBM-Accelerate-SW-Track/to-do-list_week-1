@@ -18,7 +18,7 @@ Implementation requirements:
 
 ### About Page
 Note: The styling for all pages are provided for you. However, feel free to play around with the styling to gain better understanding of how they work.
-1. Natigate to src/pages/About.js. Replace the `p` tag with your content. Your content should include:
+1. Navigate to src/pages/About.js. Replace the `p` tag with your content. Your content should include:
     - A picture
     - Details about you like Interests, fun fact so on...
     To achive this, consider using div tags to split the page in half like so
