@@ -23,7 +23,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
     - Details about you like Interests, fun fact so on... To achieve this, consider using div tags to split the page in half like so
     ```
      <div>
-        <div class="split left">
+        <div className="split left">
           <div className="centered">
             <img 
               className="profile_image"
