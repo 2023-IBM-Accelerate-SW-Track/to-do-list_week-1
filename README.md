@@ -43,7 +43,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
       </div>
 
     ```
-2. Copy your photo into the assets folder. i.e /src/assets/<profile_pic_name.jpg>
+2. Replace the dummy file with your photo in the assets folder. i.e /src/assets/<profile_pic_name.jpg>
 3. Import About.css file and profile picture in your About.js file like so 
     ```
     import "./About.css";
