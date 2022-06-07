@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-  
+import React, { Component } from "react";
+
 class Home extends Component {
   // A default state of this component with an empty list of todos.
   constructor() {
@@ -27,8 +27,8 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1>Todo's </h1>
         <p> Replace this</p>
+        <h1>Todo's </h1>
       </div>
     );
   }
