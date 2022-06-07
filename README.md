@@ -6,7 +6,7 @@ As a team, you should create and style the front-end of a to-do list web applica
 
 
 ## Requirements
-Feature requirements (Week1 task is complete when you):
+Feature requirements (Week 1 task is complete when you):
 + Design your personalize about me page
 + **Take in and display** to do list items
 
