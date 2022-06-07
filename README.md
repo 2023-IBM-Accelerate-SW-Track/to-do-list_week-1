@@ -78,10 +78,10 @@ Note: The styling for all pages are provided for you. However, feel free to play
       4. Inside the `return function` replace the `call todo list here`.
 2. Navigate to `src/pages/Home.js`. Import `AddTodo.js`, `todos.js`, and `Home.css` files. By now you should be familiar with imports
 3. In Home.js file:
-  + Inside the constructor(), create a list with the name `todos`
+  + Create a list with the name `todos` inside this.state in the constructor()
   + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
-    + `<Todos todos={make your change } />`. Hint: return current todo list state. Remember to use the `this` keyword
-    + `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
+    + `<Todos todos={make your change } />`. Hint: Replae "make your change" with current todo list state. Remember to use the `this` keyword
+    + `<AddTodo addTodo={make your change} />`. Hint: replace make your change with addTodo() function. Remember to use the `this` keyword
 
 
 ## Testing
