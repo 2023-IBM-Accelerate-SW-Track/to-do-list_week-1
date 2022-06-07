@@ -14,7 +14,7 @@ Implementation requirements:
 + Use [**Material UI components**](https://material-ui.com/) at least once throughout the app
 + Implement at least one **functional component**
 
-## Instructions:
+## Instructions
 
 ### About Page
 Note: The styling for all pages are provided for you. However, feel free to play around with the styling to gain better understanding of how they work.
