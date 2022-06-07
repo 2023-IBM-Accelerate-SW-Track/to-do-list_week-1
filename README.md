@@ -50,7 +50,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
     import <profile_pic_name> from "../assets/profile_pic_name.jpg";
     ```
 ### TO-DO List APP
-1. Navigate to `src/components/AddTodo.js` and `src/components/todos.js`
+1. Navigate to `src/components/AddTodo.js`
     + `AddTodo.js`
       1. import Button and TextField from material UI like so: `import { Button, TextField } from "@mui/material";`
       2. Both `handleChange` and `handleSubmit` functions are already provided for you. Paste the code below in the `div` tag inside the render() function. 
@@ -71,7 +71,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
       </Button>
 
       ```
-    + `todos.js` 
+    + navigate to`src/components/todos.js`
       1. Import material UI components like so: `import {Card,CardContent,Grid,ListItemButton,ListItemText,Checkbox,} from "@mui/material";`
       2. Inside the `CardContent` MUI tag replace the `add todo content`. Remember to use curly braces {}.
       3. Enter "You have no todo's left" in the `p` tag.
